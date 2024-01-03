@@ -51,10 +51,6 @@ The aim of this project is to create a basic student management system API with 
 6. **Technology Stack:**
    - TypeScript is the preferred language.
 
-## Contact
-
-For any queries or assistance, feel free to reach out to us at [hr@tghtech.com](mailto:hr@tghtech.com).
-
 ---
 
 ### Valid URLs:
