@@ -7,10 +7,10 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "public/src",
     "resolveJsonModule": true,
    "types": ["node", "mongoose"]
   },
-  "include": ["src/**/*.ts"],
+  "include": ["public/src/**/*.ts", "api/index.ts"],
   "exclude": ["node_modules", "dist"]
 }
