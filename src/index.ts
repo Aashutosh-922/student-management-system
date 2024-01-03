@@ -35,8 +35,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-import adminRoutes from './src/routes/admin'; // Correct the import path
-import studentRoutes from './src/routes/student'; // Correct the import path
+import adminRoutes from './routes/admin'; // Correct the import path
+import studentRoutes from './routes/student'; // Correct the import path
 
 dotenv.config();
 
@@ -55,6 +55,7 @@ app.use(express.json());
 mongoose.connect(mongoURI, connectionParams).then(() => {
   console.info("connected");
 });
+
 
 app.use('/admin', adminRoutes);
 app.use('/student', studentRoutes);

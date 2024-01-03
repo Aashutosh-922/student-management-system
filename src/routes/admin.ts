@@ -48,7 +48,7 @@ router.post('/login', async (req: Request, res: Response) => {
 
   // Check if the user is admin
   if (email !== 'admin@admin.com' || password !== 'admin') {
-    return res.status(401).json({ error: 'Invalid credentials' });
+    return res.status(401).json({ error: 'Invalid credentials sarthak' });
   }
 
   res.json({ message: 'Admin login successful' });
