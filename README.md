@@ -79,7 +79,7 @@ For any queries or assistance, feel free to reach out to us at [hr@tghtech.com](
 
 4. Sample API Request:
    ```json
-   POST /api/login
+   POST /admin/login
    {
      "email": "student@email.com",
      "password": "student123"
