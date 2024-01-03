@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@admin/*": ["src/routes/admin/*"],
+      "@student/*": ["src/routes/student/*"],
+      "@models/*": ["src/models/*"] // Add more mappings as needed
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
