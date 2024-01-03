@@ -1,21 +1,16 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "es6",
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src",
     "resolveJsonModule": true,
-    "jsx": "react",
-    "baseUrl": "./",
-    "paths": {
-      "@admin/*": ["src/routes/admin/*"],
-      "@student/*": ["src/routes/student/*"],
-      "@models/*": ["src/models/*"] // Add more mappings as needed
-    }
+   "types": ["node", "mongoose"]
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+  "exclude": ["node_modules", "dist"]
 }
